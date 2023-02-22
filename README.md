@@ -1,7 +1,6 @@
 # Website
  Phone website project
-
- Tasks: 
+ 
     1. Percentage:
         - A 15%
         - T 30%
