@@ -1,0 +1,20 @@
+.container, body{
+    background-color: #304230;
+    color: antiquewhite;
+}
+.container{
+    margin: 0 auto;
+}
+
+ul li{
+    list-style-type: none; 
+    float: left;
+    padding: 5px;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+}
