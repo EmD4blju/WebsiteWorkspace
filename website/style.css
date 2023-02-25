@@ -154,6 +154,7 @@ li, a{
 
 #contact textarea{
     width:25%;
+    height: 30rem;
     background-color: #1d1f26;
     border: 0.5px solid black;
 }
