@@ -1,55 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #24252A;
+    font-family: 'Tilt Neon', cursive;
+    font-weight: 500;
+    font-size: 20px;
 }
 
-body{
-    background-color: #304230;
+li, a{
+    text-decoration: none;
     color: antiquewhite;
 }
 
-.header{
-    padding: 2em;
-    margin:2em;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #1d1f26 !important;
+    box-shadow:  0px 3px 15px black;
 }
 
-ul{
-    list-style-type: none;
-}
-
-ul li{
-    float:left;
-    display: block;
-    letter-spacing: 2px;
-    margin-right: 2em;
-    padding:0.5em;
-}
-
-li a {
-    padding:inherit;
-    border-radius: 3px;
-}
-
-li a:hover{
-    background-color: antiquewhite;
-    color:#304230;
-    transition: 0.5s;
+.logo{
     cursor: pointer;
 }
 
-.container-main{
-    position: relative;
-    justify-content: center;
-    text-align: justify;
-    margin: 0 auto;
-    width: 80%;
-    padding: 10px;
-    border: 1px solid black;
+.nav-links{
+    list-style: none;
 }
 
-.container-main .article{
-    padding: 2rem;
+.nav-links li{
+    display: inline-block;
+    padding: 20px;
+    letter-spacing: 4px;
 }
+
+.nav-links li a{
+    padding:10px;
+    border-radius: 2px;
+}
+
+.nav-links li a:hover{
+    color:#24252A;
+    background-color: antiquewhite;
+    transition: 0.7s ease;
+}
+
+.logo{
+    width: 4rem;
+    padding:10px;
+    border-radius: 50%;
+}
+
+
+
+
 
 
