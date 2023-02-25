@@ -5,25 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/3c7d1e90e1.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="photos/logo.png">
+    <title>JMTelectronicsOfficial | Display</title>
 </head>
 <body>
    
     <header>
-        <img class="logo" src="photos/logo.png" alt="logo.png">
-       
-        <ul class = "nav-links">
+        <ul class = "navigation-links">
             <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
+            <li><a href="#about-us">About us</a></li>
             <li><a href="#">Phones</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul> 
-       
+        <img class="logo" src="photos/logo.png" alt="logo.png">
     </header>
-   
-    
-    
-    
+
+    <div id="content-main">
+        <div id="home">
+            <div class="article">
+                <h2>Topic</h2>
+                <div class="description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Eligendi, ut commodi ratione aliquid veniam delectus a optio esse aut 
+                    fugiat quidem, magni rem impedit repellat quo eos in ipsam, nostrum 
+                    nemo voluptate quisquam harum repellendus tempora! Aperiam deleniti 
+                    ad facilis?
+                </div>
+            </div>
+            <div class="article">
+                <h2>Topic</h2>
+                <div class="description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Eligendi, ut commodi ratione aliquid veniam delectus a optio esse aut 
+                    fugiat quidem, magni rem impedit repellat quo eos in ipsam, 
+                    nostrum nemo voluptate quisquam harum repellendus tempora! 
+                    Aperiam deleniti ad facilis?
+                </div>
+            </div>
+        </div>
+        
+        <div id="about-us">
+            <h1>About us</h1>
+            <div class="article">
+                <div class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Velit quo a nesciunt repellat ab dolores doloremque minus unde et dolorum,
+                    nam laborum harum, quam sit, sapiente saepe cupiditate natus fuga.
+                </div>
+                <img src="photos/about-us-img.png" alt="photo">
+            </div>
+        </div>
+
+        <div id="contact">
+            <h1>Contact</h1>
+            <form action="" method="post">
+                <input type="email" name="email" placeholder="Enter your e-mail">
+                <textarea name="description" cols="30" rows="10" placeholder="Type here..."></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="content">
+            <h2>TMJelectronics</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, unde?
+            </p>
+            <ul class="social">
+                <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+            <div class="copyright">
+                Copyright &copy; 2023 TMJelectronics. Designed by Emdablju.
+            </div>
+        </div>
+    </footer>
     <script src="index.js"></script>
 </body>
 </html>
