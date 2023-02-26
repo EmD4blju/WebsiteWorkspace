@@ -143,7 +143,7 @@ li, a{
 
 .navigation-links li a{
     padding:10px;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
 .navigation-links li a:hover{
@@ -157,6 +157,34 @@ li, a{
     padding:10px;
     border-radius: 50%;
 }
+
+    /* THIS IS A DROP-DOWN MENU */
+
+    .drop-content{
+        display: none;
+        position: absolute;
+        min-width: 110px;
+    }
+
+    .drop-content a{
+        border-radius: 0 !important;
+        color: antiquewhite;
+        padding: 15px;
+        background-color: #2a434d;
+        text-decoration: none;
+        display: block;
+        position: relative;
+        transition: 0.5s ease;
+    }
+
+    .drop-down:hover .drop-content{
+        display: block;
+    }
+
+    .drop-down .drop-content a:hover{
+        left:-5px;
+        transition: 0.5s ease;
+    }
 
 /* THIS IS A MAIN SECTION */
 
