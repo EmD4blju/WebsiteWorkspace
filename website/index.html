@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <script src="https://kit.fontawesome.com/3c7d1e90e1.js" crossorigin="anonymous"></script>
     <link rel="icon" href="photos/logo.png">
     <title>JMTelectronicsOfficial | Display</title>
@@ -99,11 +99,12 @@
 
         <div id="contact">
             <h1>Contact</h1>
-            <form method="post" enctype="text/plain">
+            <form method="post" action="mailSend.php">
                 <div>
                     <input type="email" name="email" placeholder="E-mail">
                     <input type="submit" value="Submit" name="submit">
                 </div>
+                <input type="text" name="subject" class="subject" placeholder="Subject">
                 <textarea name="description" cols="30" rows="10" placeholder="Type here..."></textarea>
             </form>
         </div>
