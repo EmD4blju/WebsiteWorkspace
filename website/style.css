@@ -264,6 +264,7 @@ h1, h2{
     margin: 0 auto;
     gap: 15px;
     width:25%;
+    color:antiquewhite;
 }
 
 #contact form div{
@@ -274,7 +275,7 @@ h1, h2{
 
 #contact input[type=email]{
     background-color: #1d1f26;
-    color:antiquewhite;
+    color:inherit;
     border: 0.5px solid black;
     border-radius: 5px;
     width:60%;
@@ -296,6 +297,7 @@ h1, h2{
     height: 20rem;
     padding:5px;
     background-color: #1d1f26;
+    color:inherit;
     border: 0.5px solid black;
     border-radius: 5px;
 }
