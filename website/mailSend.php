@@ -12,7 +12,7 @@
         <div class="is-sent">
             <?php
                 if($_SERVER['REQUEST_METHOD'] == 'POST'){
-                    $to_email = "mikolaj.warda@gmail.com";
+                    $to_email = "xxx";
                     $subject = $_POST['subject'];
                     $message = $_POST['description'];
                     $headers = "From: ".$_POST['email'];
